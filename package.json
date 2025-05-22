@@ -1,0 +1,40 @@
+{
+  "name": "edkproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@tailwindcss/postcss": "^4.1.5",
+    "@vue/compiler-sfc": "^3.5.14",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.1.5",
+    "tailwindcss-cli": "^0.1.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "vue": "^3.5.14",
+    "vue-loader": "^17.3.1",
+    "vue-svg-loader": "^0.16.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "pinia": "^3.0.2"
+  }
+}
